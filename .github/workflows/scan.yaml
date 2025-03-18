@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'datadog/dogstatsd:7.64.0-rc.13'
+          default: 'redhat/ubi8:latest'
 
 # env:
 #   REGISTRY: ghcr.io
