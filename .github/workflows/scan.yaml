@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'redhat/ubi8:latest'
+          default: 'percona/percona-server:8.4'
 
 # env:
 #   REGISTRY: ghcr.io
